@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    // Define an array of size 10
+    int array[10];
+
+    // Adding 10 elements to the array
+    for (int i = 0; i < 10; i++) {
+        array[i] = i + 1;  // Example: filling the array with values 1 to 10
+    }
+
+    // Print the elements of the array
+    printf("Array elements:\n");
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
